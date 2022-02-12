@@ -16,7 +16,7 @@ Default.args = {
   // Shaping the stories through args composition.
   // The data was inherited from the Default story in Task.stories.js.
   tasks: [
-    { ...TaskStories.Default.args.task, id: '1', title: 'Task new  1' },
+    { ...TaskStories.Default.args.task, id: '1', title: 'Task updated  1' },
     { ...TaskStories.Default.args.task, id: '2', title: 'Task new  2' },
     { ...TaskStories.Default.args.task, id: '3', title: 'Task new 3' },
     { ...TaskStories.Default.args.task, id: '4', title: 'Task new 4' },
